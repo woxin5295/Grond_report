@@ -1,0 +1,79 @@
+--- !grond.PlotGroup
+name: seismic_stations
+section: checks
+title: Seismic station locations
+description: '
+
+  Plot showing seismic station locations and attributes.
+
+
+  Station locations in dependence of distance and azimuth are shown. The center
+
+  of the plot corresponds to the origin of the search space, not to the optimised
+
+  location of the source.
+
+  '
+formats:
+- !grond.PNG {}
+variant: default
+feather_icon: target
+size_cm:
+- 16.0
+- 13.0
+items:
+- !grond.PlotItem
+  name: seismic_stations_weights_all.E
+  attributes: {}
+  title: Station weights (all.E)
+  description: '
+
+
+    Markers are scaled according to the weighting factor of the corresponding target''s
+    contribution in the misfit function.'
+- !grond.PlotItem
+  name: seismic_stations_contributions_all.E
+  attributes: {}
+  title: Station misfit contributions (all.E)
+  description: '
+
+
+    Markers are scaled according to their misfit contribution for the globally best
+    source model.'
+- !grond.PlotItem
+  name: seismic_stations_weights_all.N
+  attributes: {}
+  title: Station weights (all.N)
+  description: '
+
+
+    Markers are scaled according to the weighting factor of the corresponding target''s
+    contribution in the misfit function.'
+- !grond.PlotItem
+  name: seismic_stations_contributions_all.N
+  attributes: {}
+  title: Station misfit contributions (all.N)
+  description: '
+
+
+    Markers are scaled according to their misfit contribution for the globally best
+    source model.'
+- !grond.PlotItem
+  name: seismic_stations_weights_all.Z
+  attributes: {}
+  title: Station weights (all.Z)
+  description: '
+
+
+    Markers are scaled according to the weighting factor of the corresponding target''s
+    contribution in the misfit function.'
+- !grond.PlotItem
+  name: seismic_stations_contributions_all.Z
+  attributes: {}
+  title: Station misfit contributions (all.Z)
+  description: '
+
+
+    Markers are scaled according to their misfit contribution for the globally best
+    source model.'
+attributes: {}

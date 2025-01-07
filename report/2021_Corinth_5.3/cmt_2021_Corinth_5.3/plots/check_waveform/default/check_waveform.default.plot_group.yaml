@@ -1,0 +1,218 @@
+--- !grond.PlotGroup
+name: check_waveform
+section: checks
+title: Waveform Check
+description: '
+
+  Plot to judge waveform time window settings and source model parameter ranges.
+
+
+  For each waveform target, observed and synthetic waveforms are shown. For the
+
+  latter, models are randomly drawn from the configured parameter search space.
+
+
+  The top panel shows the observed waveform; filtered (faint gray), and filtered
+
+  and tapered (black). The colored outline around the observed trace shows the
+
+  taper position for each drawn model in a different color. The middle panel
+
+  shows the filtered synthetic waveforms of the drawn models and the bottom plot
+
+  shows the corresponding filtered and tapered synthetic waveforms. The colors of
+
+  taper and synthetic traces are consistent for each random model. The given time
+
+  is relative to the reference event origin time.
+
+  '
+formats:
+- !grond.PNG {}
+variant: default
+feather_icon: activity
+size_cm:
+- 9.0
+- 7.5
+items:
+- !grond.PlotItem
+  name: t0
+  attributes:
+    targets:
+    - all.CL.AGRP.00.N
+- !grond.PlotItem
+  name: t1
+  attributes:
+    targets:
+    - all.CL.AGRP.00.E
+- !grond.PlotItem
+  name: t2
+  attributes:
+    targets:
+    - all.CL.AGRP.00.Z
+- !grond.PlotItem
+  name: t3
+  attributes:
+    targets:
+    - all.HA.LAKA..N
+- !grond.PlotItem
+  name: t4
+  attributes:
+    targets:
+    - all.HA.LAKA..E
+- !grond.PlotItem
+  name: t5
+  attributes:
+    targets:
+    - all.HA.LAKA..Z
+- !grond.PlotItem
+  name: t6
+  attributes:
+    targets:
+    - all.HI.KLV1..N
+- !grond.PlotItem
+  name: t7
+  attributes:
+    targets:
+    - all.HI.KLV1..E
+- !grond.PlotItem
+  name: t8
+  attributes:
+    targets:
+    - all.HI.KLV1..Z
+- !grond.PlotItem
+  name: t9
+  attributes:
+    targets:
+    - all.HL.DLFA.00.N
+- !grond.PlotItem
+  name: t10
+  attributes:
+    targets:
+    - all.HL.DLFA.00.E
+- !grond.PlotItem
+  name: t11
+  attributes:
+    targets:
+    - all.HL.DLFA.00.Z
+- !grond.PlotItem
+  name: t12
+  attributes:
+    targets:
+    - all.HP.ANX..N
+- !grond.PlotItem
+  name: t13
+  attributes:
+    targets:
+    - all.HP.ANX..E
+- !grond.PlotItem
+  name: t14
+  attributes:
+    targets:
+    - all.HP.ANX..Z
+- !grond.PlotItem
+  name: t15
+  attributes:
+    targets:
+    - all.HP.AXS..N
+- !grond.PlotItem
+  name: t16
+  attributes:
+    targets:
+    - all.HP.AXS..E
+- !grond.PlotItem
+  name: t17
+  attributes:
+    targets:
+    - all.HP.AXS..Z
+- !grond.PlotItem
+  name: t18
+  attributes:
+    targets:
+    - all.HP.DRO..N
+- !grond.PlotItem
+  name: t19
+  attributes:
+    targets:
+    - all.HP.DRO..E
+- !grond.PlotItem
+  name: t20
+  attributes:
+    targets:
+    - all.HP.DRO..Z
+- !grond.PlotItem
+  name: t21
+  attributes:
+    targets:
+    - all.HP.GUR..N
+- !grond.PlotItem
+  name: t22
+  attributes:
+    targets:
+    - all.HP.GUR..E
+- !grond.PlotItem
+  name: t23
+  attributes:
+    targets:
+    - all.HP.GUR..Z
+- !grond.PlotItem
+  name: t24
+  attributes:
+    targets:
+    - all.HP.PLEV..N
+- !grond.PlotItem
+  name: t25
+  attributes:
+    targets:
+    - all.HP.PLEV..E
+- !grond.PlotItem
+  name: t26
+  attributes:
+    targets:
+    - all.HP.PLEV..Z
+- !grond.PlotItem
+  name: t27
+  attributes:
+    targets:
+    - all.HP.PVO..N
+- !grond.PlotItem
+  name: t28
+  attributes:
+    targets:
+    - all.HP.PVO..E
+- !grond.PlotItem
+  name: t29
+  attributes:
+    targets:
+    - all.HP.PVO..Z
+- !grond.PlotItem
+  name: t30
+  attributes:
+    targets:
+    - all.HP.SERG..N
+- !grond.PlotItem
+  name: t31
+  attributes:
+    targets:
+    - all.HP.SERG..E
+- !grond.PlotItem
+  name: t32
+  attributes:
+    targets:
+    - all.HP.SERG..Z
+- !grond.PlotItem
+  name: t33
+  attributes:
+    targets:
+    - all.HP.UPR..N
+- !grond.PlotItem
+  name: t34
+  attributes:
+    targets:
+    - all.HP.UPR..E
+- !grond.PlotItem
+  name: t35
+  attributes:
+    targets:
+    - all.HP.UPR..Z
+attributes: {}

@@ -1,0 +1,247 @@
+--- !grond.PlotGroup
+name: fits_waveform_ensemble
+section: fits
+title: Waveform fits for the ensemble
+description: '
+
+  Plot showing waveform (attribute) fits for the ensemble of solutions.
+
+
+  Waveform fits for every nth model in the ensemble of bootstrap solutions.
+
+  Depending on the target configuration different types of comparisons are
+
+  possible: (i) time domain waveform differences, (ii) amplitude spectra, (iii)
+
+  envelopes, (iv) cross correlation functions. Each waveform plot gives a number
+
+  of details:
+
+
+  1) Target information (left side, from top to bottom) gives station name with
+
+  component, distance to source, azimuth of station with respect to source,
+
+  target weight, target misfit and starting time of the waveform relative to the
+
+  origin time.
+
+
+  2) The background gray area shows the applied taper function.
+
+
+  3) The waveforms shown are: the restituted and filtered observed trace without
+
+  tapering (light grey) and the same trace with tapering and processing (dark
+
+  gray), the synthetic trace (light red) and the filtered, tapered and (if
+
+  enabled) shifted and processed synthetic trace (colored). The colors of the
+
+  synthetic traces indicate how well the corresponding models fit in the global
+
+  weighting scheme (when all bootstrap weights are equal), from better fit (red)
+
+  to worse fit (blue). The amplitudes of the traces are scaled according to the
+
+  target weight (small weight, small amplitude) and normed relative to the
+
+  maximum amplitude of the targets of the corresponding normalisation family.
+
+
+  4) The bottom panel shows, depending on the type of comparison, sample-wise
+
+  residuals for time domain comparisons (red filled), spectra of observed and
+
+  synthetic traces for amplitude spectrum comparisons, or cross correlation
+
+  traces.'
+formats:
+- !grond.PNG {}
+variant: default
+feather_icon: activity
+size_cm:
+- 9.0
+- 5.0
+items:
+- !grond.PlotItem
+  name: fig_all_E_0_0
+  attributes:
+    targets:
+    - all.CL.AGRP.00.E
+- !grond.PlotItem
+  name: fig_all_E_1_0
+  attributes:
+    targets:
+    - all.HA.LAKA..E
+- !grond.PlotItem
+  name: fig_all_E_2_0
+  attributes:
+    targets:
+    - all.HI.KLV1..E
+- !grond.PlotItem
+  name: fig_all_E_3_0
+  attributes:
+    targets:
+    - all.HL.DLFA.00.E
+- !grond.PlotItem
+  name: fig_all_E_4_0
+  attributes:
+    targets:
+    - all.HP.ANX..E
+- !grond.PlotItem
+  name: fig_all_E_5_0
+  attributes:
+    targets:
+    - all.HP.AXS..E
+- !grond.PlotItem
+  name: fig_all_E_6_0
+  attributes:
+    targets:
+    - all.HP.DRO..E
+- !grond.PlotItem
+  name: fig_all_E_7_0
+  attributes:
+    targets:
+    - all.HP.GUR..E
+- !grond.PlotItem
+  name: fig_all_E_8_0
+  attributes:
+    targets:
+    - all.HP.PLEV..E
+- !grond.PlotItem
+  name: fig_all_E_9_0
+  attributes:
+    targets:
+    - all.HP.PVO..E
+- !grond.PlotItem
+  name: fig_all_E_10_0
+  attributes:
+    targets:
+    - all.HP.SERG..E
+- !grond.PlotItem
+  name: fig_all_E_11_0
+  attributes:
+    targets:
+    - all.HP.UPR..E
+- !grond.PlotItem
+  name: fig_all_N_0_0
+  attributes:
+    targets:
+    - all.CL.AGRP.00.N
+- !grond.PlotItem
+  name: fig_all_N_1_0
+  attributes:
+    targets:
+    - all.HA.LAKA..N
+- !grond.PlotItem
+  name: fig_all_N_2_0
+  attributes:
+    targets:
+    - all.HI.KLV1..N
+- !grond.PlotItem
+  name: fig_all_N_3_0
+  attributes:
+    targets:
+    - all.HL.DLFA.00.N
+- !grond.PlotItem
+  name: fig_all_N_4_0
+  attributes:
+    targets:
+    - all.HP.ANX..N
+- !grond.PlotItem
+  name: fig_all_N_5_0
+  attributes:
+    targets:
+    - all.HP.AXS..N
+- !grond.PlotItem
+  name: fig_all_N_6_0
+  attributes:
+    targets:
+    - all.HP.DRO..N
+- !grond.PlotItem
+  name: fig_all_N_7_0
+  attributes:
+    targets:
+    - all.HP.GUR..N
+- !grond.PlotItem
+  name: fig_all_N_8_0
+  attributes:
+    targets:
+    - all.HP.PLEV..N
+- !grond.PlotItem
+  name: fig_all_N_9_0
+  attributes:
+    targets:
+    - all.HP.PVO..N
+- !grond.PlotItem
+  name: fig_all_N_10_0
+  attributes:
+    targets:
+    - all.HP.SERG..N
+- !grond.PlotItem
+  name: fig_all_N_11_0
+  attributes:
+    targets:
+    - all.HP.UPR..N
+- !grond.PlotItem
+  name: fig_all_Z_0_0
+  attributes:
+    targets:
+    - all.CL.AGRP.00.Z
+- !grond.PlotItem
+  name: fig_all_Z_1_0
+  attributes:
+    targets:
+    - all.HA.LAKA..Z
+- !grond.PlotItem
+  name: fig_all_Z_2_0
+  attributes:
+    targets:
+    - all.HI.KLV1..Z
+- !grond.PlotItem
+  name: fig_all_Z_3_0
+  attributes:
+    targets:
+    - all.HL.DLFA.00.Z
+- !grond.PlotItem
+  name: fig_all_Z_4_0
+  attributes:
+    targets:
+    - all.HP.ANX..Z
+- !grond.PlotItem
+  name: fig_all_Z_5_0
+  attributes:
+    targets:
+    - all.HP.AXS..Z
+- !grond.PlotItem
+  name: fig_all_Z_6_0
+  attributes:
+    targets:
+    - all.HP.DRO..Z
+- !grond.PlotItem
+  name: fig_all_Z_7_0
+  attributes:
+    targets:
+    - all.HP.GUR..Z
+- !grond.PlotItem
+  name: fig_all_Z_8_0
+  attributes:
+    targets:
+    - all.HP.PLEV..Z
+- !grond.PlotItem
+  name: fig_all_Z_9_0
+  attributes:
+    targets:
+    - all.HP.PVO..Z
+- !grond.PlotItem
+  name: fig_all_Z_10_0
+  attributes:
+    targets:
+    - all.HP.SERG..Z
+- !grond.PlotItem
+  name: fig_all_Z_11_0
+  attributes:
+    targets:
+    - all.HP.UPR..Z
+attributes: {}
