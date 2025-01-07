@@ -1,0 +1,53 @@
+--- !grond.ReportIndexEntry
+path: .
+problem_name: cmt_2021_Corinth_5.3_L1L1_20000
+event_reference: !pf.Event
+  lat: 38.36
+  lon: 21.94
+  time: '2021-02-17 03:36:06.299999952'
+  depth: 3000.0
+  name: '2021_Corinth_5.3'
+  magnitude: 5.3
+  moment_tensor: !pf.MomentTensor
+    mnn: 1.24497e+17
+    mee: 3.9861e+16
+    mdd: 4422000000000000.0
+    mne: 1.1611e+16
+    mnd: -2.04e+16
+    med: 1980000000000000.0
+    strike1: 91.17564002875515
+    dip1: 54.458676600915965
+    rake1: -98.42575635581765
+    strike2: 285.4717123369118
+    dip2: 36.39805847009179
+    rake2: -78.40875847154902
+    moment: 9.544042082891294e+16
+    magnitude: 5.28648823041129
+event_best: !pf.Event
+  lat: 38.36
+  lon: 21.94
+  north_shift: 177.76388535248702
+  east_shift: -171.51993396990443
+  time: '2021-02-17 03:36:07.687622309'
+  depth: 2853.1096582575788
+  name: '2021_Corinth_5.3'
+  magnitude: 5.21911953174099
+  moment_tensor: !pf.MomentTensor
+    mnn: 9.258073384034954e+16
+    mee: 1.3768253033186424e+16
+    mdd: -3.0891765293342628e+16
+    mne: 7331462235410266.0
+    mnd: -2.6177546480319868e+16
+    med: -1.1088895209617058e+16
+    strike1: 104.15729174540552
+    dip1: 57.46048192201513
+    rake1: -79.34499289461445
+    strike2: 264.87860003890853
+    dip2: 34.05652046527854
+    rake2: -106.16083009003808
+    moment: 7.562742222024792e+16
+    magnitude: 5.21911953174099
+  duration: 2.888780296818459
+grond_version: 1.6.1
+run_info: !grond.RunInfo
+  tags: []
